@@ -10,6 +10,6 @@ class FibonacciController {
         render([
                 'with-length': generator.generateWithLength(id),
                 until        : generator.generateUntil(id)
-        ]) as JSON
+        ] as JSON)
     }
 }
